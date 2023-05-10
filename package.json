@@ -1,0 +1,64 @@
+{
+  "name": "youtube-music",
+	"productName": "Youtube Music",
+  "version": "1.0.0",
+  "license": "MIT",
+  "homepage": "https://github.com/pauchiner/youtube-music#readme",
+  "bugs": {
+    "url": "https://github.com/pauchiner/youtube-music/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pauchiner/youtube-music.git"
+  },
+  "author": {
+    "name": "Pau García Chiner",
+    "email": "pauchiner@icloud.com",
+    "url": "https://github.com/pauchiner"
+  },
+  "description": "A electron youtube music web app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+		"pack": "electron-builder --dir",
+		"postinstall": "electron-builder install-app-deps",
+		"dist": "electron-builder --macos --linux --windows"
+  },
+  "overrides": {
+    "minimatch": "7.4.2",
+    "got": "12.6.0"
+  },
+  "devDependencies": {
+    "electron": "23.2.1",
+		"electron-builder": "23.3.3"
+  },
+	"build": {
+		"appId": "com.pauchiner.youtubemusic",
+		"mac": {
+			"category": "public.app-category.music",
+			"darkModeSupport": true
+		},
+		"dmg": {
+			"iconSize": 160,
+			"contents": [
+				{
+					"x": 180,
+					"y": 170
+				},
+				{
+					"x": 480,
+					"y": 170,
+					"type": "link",
+					"path": "/Applications"
+				}
+			]
+		},
+		"linux": {
+			"target": [
+				"AppImage",
+				"deb"
+			],
+			"category": "Music"
+		}
+	}
+}
