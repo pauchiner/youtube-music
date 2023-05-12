@@ -11,7 +11,7 @@
 
 <p align="center">A minimal Electron application for Youtube Music.</p>
 
-<img src="images/screenshot.png">
+<img src="images/Screenshot.png">
 
 # 🧑‍🤝‍🧑 Contributions
 
