@@ -29,7 +29,7 @@
     "got": "12.6.0"
   },
   "devDependencies": {
-    "electron": "23.2.1",
+    "electron": "23.3.13",
 		"electron-builder": "23.3.3"
   },
 	"build": {
