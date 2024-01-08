@@ -4,7 +4,7 @@
 </div>
  
 <h4 align="center">
-  <a href="https://github.com/pauchiner/electron-youtube-music/releases"> 🛠️ Installation </a>
+  <a href="https://github.com/pauchiner/youtube-music/releases"> 🛠️ Installation </a>
   ·
   <a href="#-contributions"> 🧑‍🤝‍🧑 Contributions </a>
 </h4>
@@ -17,7 +17,7 @@
 
 All contributions are welcome:
 
-[CONTRIBUTING.md](https://github.com/pauchiner/electron-youtube-music/blob/main/.github/CONTRIBUTING.md)
+[CONTRIBUTING.md](https://github.com/pauchiner/youtube-music/blob/main/.github/CONTRIBUTING.md)
 
-[CODE_OF_CONDUCT.md](https://github.com/pauchiner/electron-youtube-music/blob/main/.github/CODE_OF_CONDUCT.md)
+[CODE_OF_CONDUCT.md](https://github.com/pauchiner/youtube-music/blob/main/.github/CODE_OF_CONDUCT.md)
 
