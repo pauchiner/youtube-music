@@ -1,6 +1,6 @@
 <div align="center">
     <img src="images/logo.png" width="133", height="133">
-    <h1>Electron Youtube Music</h1>
+    <h1>Youtube Music</h1>
 </div>
  
 <h4 align="center">
@@ -9,7 +9,8 @@
   <a href="#-contributions"> 🧑‍🤝‍🧑 Contributions </a>
 </h4>
 
-<p align="center">A minimal Electron application for Youtube Music.</p>
+> [!IMPORTANT]  
+> This is not an official Youtube application, it is not intended to generate money nor am I responsible for its use.
 
 <img src="images/Screenshot.png">
 
