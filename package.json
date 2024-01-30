@@ -3,7 +3,10 @@
   "productName": "Youtube Music",
   "version": "1.0.1",
   "license": "MIT",
-  "author": "Pau García Chiner",
+  "author": {
+    "name": "Pau García Chiner",
+    "email": "pauchiner@icloud.com"
+  },
   "description": "A electron youtube music web app",
   "main": "main.js",
   "scripts": {
@@ -12,13 +15,9 @@
     "postinstall": "electron-builder install-app-deps",
     "dist": "electron-builder --macos --linux --windows"
   },
-  "overrides": {
-    "minimatch": "7.4.2",
-    "got": "12.6.0"
-  },
   "devDependencies": {
-    "electron": "23.3.13",
-    "electron-builder": "23.3.3"
+    "electron": "28.2.0",
+    "electron-builder": "24.9.1"
   },
   "build": {
     "appId": "com.pauchiner.youtubemusic",
